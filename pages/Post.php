@@ -1,5 +1,3 @@
-
-<head>
     <meta charset="utf-8">
     <title>Styles - Typerite</title>
     <meta name="description" content="">
@@ -17,8 +15,6 @@
         }
     </style>
     <link rel="manifest" href="site.webmanifest">
-
-</head>
 
 <body class="ss-bg-white">
     <div id="preloader">

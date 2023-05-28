@@ -1,5 +1,3 @@
-
-<head>
     <meta charset="utf-8">
     <title>Standard Post - Typerite</title>
     <meta name="description" content="">
@@ -10,8 +8,6 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <script src="./assets/js/modernizr.js"></script>
     <link rel="manifest" href="site.webmanifest">
-
-</head>
 
 <body class="ss-bg-white">
     <div id="preloader">
@@ -85,18 +81,13 @@
                     </li>
                 </ul>
 
-            </nav> <!-- end header__nav-wrap -->
-
-            <!-- menu toggle -->
+            </nav> 
             <a href="#0" class="header__menu-toggle">
                 <span>Menu</span>
             </a>
 
-        </header> <!-- end s-header -->
+        </header> 
 
-
-        <!-- search
-        ================================================== -->
         <div class="s-search">
 
             <div class="search-block">
@@ -111,20 +102,15 @@
     
                 <a href="#0" title="Close Search" class="search-close">Close</a>
     
-            </div>  <!-- end search-block -->
-
-            <!-- search modal trigger -->
+            </div>  
             <a href="#0" class="search-trigger">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter"><path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"></path></svg>
                 <span>Search</span>
             </a>
             <span class="search-line"></span>
 
-        </div> <!-- end s-search -->
+        </div> 
 
-
-        <!-- site content
-        ================================================== -->
         <div class="s-content content">
             <main class="row content__page">
                 
@@ -150,7 +136,7 @@
                                 <a href="#0">Marketing</a><a href="#0">Management</a>
                             </li>
                         </ul>
-                    </div> <!-- end entry__header -->
+                    </div> 
 
                     <div class="entry__content">
 
@@ -276,7 +262,7 @@
                             </span>
             
                         </p>
-                    </div> <!-- end entry content -->
+                    </div> 
 
                     <div class="entry__pagenav">
                         <div class="entry__nav">
@@ -293,7 +279,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div> <!-- end entry__pagenav -->
+                    </div> 
 
                     <div class="entry__related">
                         <h3 class="h2">Related Articles</h3>
@@ -318,9 +304,9 @@
                                 <h5 class="related__post-title">The Art Of Visual Storytelling.</h5>
                             </li>
                         </ul>
-                    </div> <!-- end entry related -->
+                    </div> 
 
-                </article> <!-- end column large-full entry-->
+                </article> 
 
 
                 <div class="comments-wrap">
@@ -329,7 +315,6 @@
 
                         <h3 class="h2">5 Comments</h3>
         
-                        <!-- START commentlist -->
                         <ol class="commentlist">
         
                             <li class="depth-1 comment">
@@ -358,7 +343,7 @@
         
                                 </div>
         
-                            </li> <!-- end comment level 1 -->
+                            </li> 
         
                             <li class="thread-alt depth-1 comment">
         
@@ -452,7 +437,7 @@
         
                                 </ul>
         
-                            </li> <!-- end comment level 1 -->
+                            </li> 
         
                             <li class="depth-1 comment">
         
@@ -479,16 +464,14 @@
         
                                 </div>
         
-                            </li>  <!-- end comment level 1 -->
+                            </li>  
         
                         </ol>
-                        <!-- END commentlist -->
 
-                    </div> <!-- end comments -->
+                    </div> 
 
                     <div class="column large-12 comment-respond">
 
-                        <!-- START respond -->
                         <div id="respond">
             
                             <h3 class="h2">Add Comment <span>Your email address will not be published</span></h3>
@@ -515,21 +498,17 @@
                                     <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
             
                                 </fieldset>
-                            </form> <!-- end form -->
+                            </form>
             
                         </div>
-                        <!-- END respond-->
             
-                    </div> <!-- end comment-respond -->
+                    </div> 
             
-                </div> <!-- end comments-wrap -->
+                </div> 
             </main>
 
-        </div> <!-- end s-content -->
+        </div> 
 
-
-        <!-- footer
-        ================================================== -->
         <footer class="s-footer footer">
             <div class="row">
                 <div class="column large-full footer__content">
@@ -545,11 +524,8 @@
             </div>
         </footer>
 
-    </div> <!-- end s-wrap -->
+    </div> 
 
-
-    <!-- Java Script
-    ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>

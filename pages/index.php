@@ -1,5 +1,3 @@
-
-<head>
     <meta charset="utf-8">
     <title>Typerite</title>
     <meta name="description" content="">
@@ -10,8 +8,6 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <script src="./assets/js/modernizr.js"></script>
     <link rel="manifest" href="site.webmanifest">
-
-</head>
 
 <body>
     <div id="preloader">
