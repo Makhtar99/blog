@@ -88,8 +88,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #ff4b2b;
-	background: #ff445c;
+	border: 1px solid black;
+	background: black;
 	color: #fff;
 	font-size: 12px;
 	font-weight: bold;
@@ -145,7 +145,7 @@ button.ghost {
 
 .overlay {
 	background: #ff416c;
-	background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+	background: linear-gradient(to right, black, #ff416c) no-repeat 0 0 / cover;
 	color: #fff;
 	position: relative;
 	left: -100%;

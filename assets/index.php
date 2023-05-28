@@ -23,7 +23,7 @@
 
             <div class="header__top">
                 <div class="header__logo">
-                    <a class="site-logo" href="index.html">
+                    <a class="site-logo" href="index.php">
                         <img src="images/logo.svg" alt="Homepage">
                     </a>
                 </div>
@@ -126,7 +126,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
                             
                         <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
+                            <a href="single-standard.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/woodcraft-600.jpg" 
                                         srcset="images/thumbs/masonry/woodcraft-600.jpg 1x, images/thumbs/masonry/woodcraft-1200.jpg 2x" alt="">
                             </a>
@@ -135,14 +135,14 @@
                         <div class="entry__text">
                             <div class="entry__header">
     
-                                <h2 class="entry__title"><a href="single-standard.html">Just a Standard Format Post.</a></h2>
+                                <h2 class="entry__title"><a href="single-standard.php">Just a Standard Format Post.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Design</a> 
-                                        <a href="category.html">Photography</a>
+                                        <a href="category.php">Design</a> 
+                                        <a href="category.php">Photography</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 29, 2019</a>
+                                        <a href="single-standard.php">Apr 29, 2019</a>
                                     </span>
                                 </div>
                                 
@@ -171,7 +171,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
                             
                         <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
+                            <a href="single-standard.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/tulips-600.jpg" 
                                         srcset="images/thumbs/masonry/tulips-600.jpg 1x, images/thumbs/masonry/tulips-1200.jpg 2x" alt="">
                             </a>
@@ -179,13 +179,13 @@
         
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">10 Interesting Facts About Caffeine.</a></h2>
+                                <h2 class="entry__title"><a href="single-standard.php">10 Interesting Facts About Caffeine.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Health</a>
+                                        <a href="category.php">Health</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 28, 2019</a>
+                                        <a href="single-standard.php">Apr 28, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
     
                         <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
+                            <a href="single-standard.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/dew-600.jpg" 
                                         srcset="images/thumbs/masonry/dew-600.jpg 1x, images/thumbs/masonry/dew-1200.jpg 2x" alt="">
                             </a>
@@ -210,14 +210,14 @@
         
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Health Benefits Of Morning Dew.</a></h2>
+                                <h2 class="entry__title"><a href="single-standard.php">Health Benefits Of Morning Dew.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Lifestyle</a>
-                                        <a href="category.html">Health</a>
+                                        <a href="category.php">Lifestyle</a>
+                                        <a href="category.php">Health</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 28, 2019</a>
+                                        <a href="single-standard.php">Apr 28, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -233,7 +233,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
     
                             <div class="entry__thumb">
-                                <a href="single-standard.html" class="entry__thumb-link">
+                                <a href="single-standard.php" class="entry__thumb-link">
                                     <img src="images/thumbs/masonry/rucksack-600.jpg" 
                                             srcset="images/thumbs/masonry/rucksack-600.jpg 1x, images/thumbs/masonry/rucksack-1200.jpg 2x" alt="">
                                 </a>
@@ -242,15 +242,15 @@
                             <div class="entry__text">
                                 <div class="entry__header">
                                     
-                                    <h2 class="entry__title"><a href="single-standard.html">The Art Of Visual Storytelling.</a></h2>
+                                    <h2 class="entry__title"><a href="single-standard.php">The Art Of Visual Storytelling.</a></h2>
                                     
                                     <div class="entry__meta">
                                         <span class="entry__meta-cat">
-                                            <a href="category.html">Lifestyle</a>
-                                            <a href="category.html">Work</a>
+                                            <a href="category.php">Lifestyle</a>
+                                            <a href="category.php">Work</a>
                                         </span>
                                         <span class="entry__meta-date">
-                                            <a href="single-standard.html">Apr 26, 2019</a>
+                                            <a href="single-standard.php">Apr 26, 2019</a>
                                         </span>
                                     </div>
                                 </div>
@@ -266,7 +266,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
     
                         <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
+                            <a href="single-standard.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/jump-600.jpg" 
                                         srcset="images/thumbs/masonry/jump-600.jpg 1x, images/thumbs/masonry/jump-1200.jpg 2x" alt="">
                             </a>
@@ -275,14 +275,14 @@
                         <div class="entry__text">
                             <div class="entry__header">
                                 
-                                <h2 class="entry__title"><a href="single-standard.html">Create Meaningful Family Moments.</a></h2>
+                                <h2 class="entry__title"><a href="single-standard.php">Create Meaningful Family Moments.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Family</a>
-                                        <a href="category.html">Relationship</a>
+                                        <a href="category.php">Family</a>
+                                        <a href="category.php">Relationship</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 26, 2019</a>
+                                        <a href="single-standard.php">Apr 26, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -298,7 +298,7 @@
                     <article class="masonry__brick entry format-audio animate-this">
     
                         <div class="entry__thumb">
-                            <a href="single-audio.html" class="entry__thumb-link">
+                            <a href="single-audio.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/guitarist-600.jpg" 
                                      srcset="images/thumbs/masonry/guitarist-600.jpg 1x, images/thumbs/masonry/guitarist-1200.jpg 2x" alt="">
                             </a>
@@ -306,13 +306,13 @@
     
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-audio.html">What Your Music Preference Says About You and Your Personality.</a></h2>
+                                <h2 class="entry__title"><a href="single-audio.php">What Your Music Preference Says About You and Your Personality.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Lifestyle</a>
+                                        <a href="category.php">Lifestyle</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 24, 2019</a>
+                                        <a href="single-standard.php">Apr 24, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -328,7 +328,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
     
                         <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
+                            <a href="single-standard.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/beetle-600.jpg" 
                                         srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="">
                             </a>
@@ -336,13 +336,13 @@
     
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Throwback To The Good Old Days.</a></h2>
+                                <h2 class="entry__title"><a href="single-standard.php">Throwback To The Good Old Days.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Lifestyle</a>
+                                        <a href="category.php">Lifestyle</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 24, 2019</a>
+                                        <a href="single-standard.php">Apr 24, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -366,14 +366,14 @@
         
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-video.html">No Sugar Oatmeal Cookies.</a></h2>
+                                <h2 class="entry__title"><a href="single-video.php">No Sugar Oatmeal Cookies.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Lifestyle</a>
-                                        <a href="category.html">Health</a>
+                                        <a href="category.php">Lifestyle</a>
+                                        <a href="category.php">Health</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 24, 2019</a>
+                                        <a href="single-standard.php">Apr 24, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -389,7 +389,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
     
                         <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
+                            <a href="single-standard.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/lamp-600.jpg" 
                                         srcset="images/thumbs/masonry/lamp-600.jpg 1x, images/thumbs/masonry/lamp-1200.jpg 2x" alt="">
                             </a>
@@ -397,14 +397,14 @@
     
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Another Standard Format Post.</a></h2>
+                                <h2 class="entry__title"><a href="single-standard.php">Another Standard Format Post.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Design</a>
-                                        <a href="category.html">Photography</a>
+                                        <a href="category.php">Design</a>
+                                        <a href="category.php">Photography</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 24, 2019</a>
+                                        <a href="single-standard.php">Apr 24, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -451,13 +451,13 @@
         
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-gallery.html">The Best Tropical Leaves Images.</a></h2>
+                                <h2 class="entry__title"><a href="single-gallery.php">The Best Tropical Leaves Images.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Vacation</a>
+                                        <a href="category.php">Vacation</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 23, 2019</a>
+                                        <a href="single-standard.php">Apr 23, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -473,7 +473,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
     
                         <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
+                            <a href="single-standard.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/walk-600.jpg" 
                                         srcset="images/thumbs/masonry/walk-600.jpg 1x, images/thumbs/masonry/walk-1200.jpg 2x" alt="">
                             </a>
@@ -481,13 +481,13 @@
     
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Using Repetition and Patterns in Photography.</a></h2>
+                                <h2 class="entry__title"><a href="single-standard.php">Using Repetition and Patterns in Photography.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Work</a>
+                                        <a href="category.php">Work</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 23, 2019</a>
+                                        <a href="single-standard.php">Apr 23, 2019</a>
                                     </span>
                                 </div>
                             </div>
@@ -503,7 +503,7 @@
                     <article class="masonry__brick entry format-standard animate-this">
     
                         <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
+                            <a href="single-standard.php" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/real-600.jpg" 
                                         srcset="images/thumbs/masonry/real-600.jpg 1x, images/thumbs/masonry/real-1200.jpg 2x" alt="">
                             </a>
@@ -511,14 +511,14 @@
     
                         <div class="entry__text">
                             <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">How We Live Is What Makes Us Real.</a></h2>
+                                <h2 class="entry__title"><a href="single-standard.php">How We Live Is What Makes Us Real.</a></h2>
                                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a href="category.html">Travel</a>
-                                        <a href="category.html">Vacation</a>
+                                        <a href="category.php">Travel</a>
+                                        <a href="category.php">Vacation</a>
                                     </span>
                                     <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 23, 2019</a>
+                                        <a href="single-standard.php">Apr 23, 2019</a>
                                     </span>
                                 </div>
                             </div>
