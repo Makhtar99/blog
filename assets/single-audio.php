@@ -3,10 +3,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/vendor.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <script src="./assets/js/modernizr.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/vendor.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/modernizr.js"></script>
     <link rel="manifest" href="site.webmanifest">
 
 <body class="ss-bg-white">
@@ -24,7 +24,7 @@
 
             <div class="header__top">
                 <div class="header__logo">
-                    <a class="site-logo" href="index.html">
+                    <a class="site-logo" href="index.php">
                         <img src="images/logo.svg" alt="Homepage">
                     </a>
                 </div>
@@ -33,30 +33,30 @@
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li><a href="index.php" title="">Home</a></li>
                     <li class="has-children">
                         <a href="#0" title="">Categories</a>
                         <ul class="sub-menu">
-                        <li><a href="category.html">Lifestyle</a></li>
-                        <li><a href="category.html">Health</a></li>
-                        <li><a href="category.html">Family</a></li>
-                        <li><a href="category.html">Management</a></li>
-                        <li><a href="category.html">Travel</a></li>
-                        <li><a href="category.html">Work</a></li>
+                        <li><a href="category.php">Lifestyle</a></li>
+                        <li><a href="category.php">Health</a></li>
+                        <li><a href="category.php">Family</a></li>
+                        <li><a href="category.php">Management</a></li>
+                        <li><a href="category.php">Travel</a></li>
+                        <li><a href="category.php">Work</a></li>
                         </ul>
                     </li>
                     <li class="has-children current">
                         <a href="#0" title="">Blog</a>
                         <ul class="sub-menu">
-                        <li><a href="single-video.html">Video Post</a></li>
-                        <li><a href="single-audio.html">Audio Post</a></li>
-                        <li><a href="single-gallery.html">Gallery Post</a></li>
-                        <li><a href="single-standard.html">Standard Post</a></li>
+                        <li class="current"><a href="single-video.php">Video Post</a></li>
+                        <li class="current"><a href="single-audio.php">Audio Post</a></li>
+                        <li><a href="single-gallery.php">Gallery Post</a></li>
+                        <li><a href="single-standard.php">Standard Post</a></li>
                         </ul>
                     </li>
-                    <li><a href="Post.html" title="">Post</a></li>
-                    <li><a href="about.html" title="">About</a></li>
-                    <li><a href="Account.html" title="">Account</a></li>
+                    <li><a href="Post.php" title="">Post</a></li>
+                    <li><a href="about.php" title="">About</a></li>
+                    <li><a href="Account.php" title="">Account</a></li>
                 </ul> 
 
                 <ul class="header__social">

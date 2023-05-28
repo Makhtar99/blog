@@ -1,11 +1,11 @@
     <meta charset="utf-8">
-    <title>Standard Post - Typerite</title>
+    <title>Gallery Post - Typerite</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/vendor.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/vendor.css">
+    <link rel="stylesheet" href="./css/main.css">
     <script src="./assets/js/modernizr.js"></script>
     <link rel="manifest" href="site.webmanifest">
 
@@ -23,7 +23,7 @@
 
             <div class="header__top">
                 <div class="header__logo">
-                    <a class="site-logo" href="index.html">
+                    <a class="site-logo" href="index.php">
                         <img src="images/logo.svg" alt="Homepage">
                     </a>
                 </div>
@@ -32,31 +32,31 @@
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li><a href="index.html" title="">Home</a></li>
+                    <li><a href="index.php" title="">Home</a></li>
                     <li class="has-children">
                         <a href="#0" title="">Categories</a>
                         <ul class="sub-menu">
-                        <li><a href="category.html">Lifestyle</a></li>
-                        <li><a href="category.html">Health</a></li>
-                        <li><a href="category.html">Family</a></li>
-                        <li><a href="category.html">Management</a></li>
-                        <li><a href="category.html">Travel</a></li>
-                        <li><a href="category.html">Work</a></li>
+                        <li><a href="category.php">Lifestyle</a></li>
+                        <li><a href="category.php">Health</a></li>
+                        <li><a href="category.php">Family</a></li>
+                        <li><a href="category.php">Management</a></li>
+                        <li><a href="category.php">Travel</a></li>
+                        <li><a href="category.php">Work</a></li>
                         </ul>
                     </li>
                     <li class="has-children current">
-                        <a href="#0" title="">Blog</a>
+                        <a href="#0" title="">Blog Posts</a>
                         <ul class="sub-menu">
-                        <li><a href="single-video.html">Video Post</a></li>
-                        <li><a href="single-audio.html">Audio Post</a></li>
-                        <li><a href="single-gallery.html">Gallery Post</a></li>
-                        <li><a href="single-standard.html">Standard Post</a></li>
+                        <li><a href="single-video.php">Video Post</a></li>
+                        <li><a href="single-audio.php">Audio Post</a></li>
+                        <li class="current"><a href="single-gallery.php">Gallery Post</a></li>
+                        <li><a href="single-standard.php">Standard Post</a></li>
                         </ul>
                     </li>
-                    <li><a href="Post.html" title="">Post</a></li>
-                    <li><a href="about.html" title="">About</a></li>
-                    <li><a href="Account.html" title="">Account</a></li>
-                </ul> <!-- end header__nav -->
+                    <li><a href="Post.php" title="">Post</a></li>
+                    <li><a href="about.php" title="">About</a></li>
+                    <li><a href="Account.php" title="">Account</a></li>
+                </ul> 
 
                 <ul class="header__social">
                     <li class="ss-facebook">
@@ -82,6 +82,7 @@
                 </ul>
 
             </nav> 
+
             <a href="#0" class="header__menu-toggle">
                 <span>Menu</span>
             </a>
@@ -102,7 +103,8 @@
     
                 <a href="#0" title="Close Search" class="search-close">Close</a>
     
-            </div>  
+            </div> 
+
             <a href="#0" class="search-trigger">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter"><path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"></path></svg>
                 <span>Search</span>
@@ -114,20 +116,39 @@
         <div class="s-content content">
             <main class="row content__page">
                 
-                <article class="column large-full entry format-standard">
+                <article class="column large-full entry format-gallery">
 
                     <div class="media-wrap entry__media">
-                        <div class="entry__post-thumb">
-                            <img src="images/thumbs/single/standard/standard-1000.jpg" 
-                                 srcset="images/thumbs/single/standard/standard-2000.jpg 2000w, 
-                                         images/thumbs/single/standard/standard-1000.jpg 1000w, 
-                                         images/thumbs/single/standard/standard-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                        <div class="entry__slider slider">
+                            <div class="slider__slides">
+                                <div class="slider__slide">
+                                    <img src="images/thumbs/single/gallery/single-gallery-01-1000.jpg" 
+                                            srcset="images/thumbs/single/gallery/single-gallery-01-2000.jpg 2000w, 
+                                                    images/thumbs/single/gallery/single-gallery-01-1000.jpg 1000w, 
+                                                    images/thumbs/single/gallery/single-gallery-01-500.jpg 500w" 
+                                            sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+                                </div>
+                                <div class="slider__slide">
+                                    <img src="images/thumbs/single/gallery/single-gallery-02-1000.jpg" 
+                                            srcset="images/thumbs/single/gallery/single-gallery-02-2000.jpg 2000w, 
+                                                    images/thumbs/single/gallery/single-gallery-02-1000.jpg 1000w, 
+                                                    images/thumbs/single/gallery/single-gallery-02-500.jpg 500w" 
+                                            sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+                                </div>
+                                <div class="slider__slide">
+                                    <img src="images/thumbs/single/gallery/single-gallery-03-1000.jpg" 
+                                            srcset="images/thumbs/single/gallery/single-gallery-03-2000.jpg 2000w, 
+                                                images/thumbs/single/gallery/single-gallery-03-1000.jpg 1000w, 
+                                                images/thumbs/single/gallery/single-gallery-03-500.jpg 500w" 
+                                            sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     <div class="content__page-header entry__header">
                         <h1 class="display-1 entry__title">
-                        This Is A Standard Format Post.
+                        Hello, This Is A Gallery Post.
                         </h1>
                         <ul class="entry__header-meta">
                             <li class="author">By <a href="#0">Jonathan Doe</a></li>
@@ -210,13 +231,13 @@
 
 <pre><code class="language-css">
     code {
-    font-size: 1.4rem;
-    margin: 0 .2rem;
-    padding: .2rem .6rem;
-    white-space: nowrap;
-    background: #F1F1F1;
-    border: 1px solid #E1E1E1;	
-    border-radius: 3px;
+        font-size: 1.4rem;
+        margin: 0 .2rem;
+        padding: .2rem .6rem;
+        white-space: nowrap;
+        background: #F1F1F1;
+        border: 1px solid #E1E1E1;	
+        border-radius: 3px;
     }
 </code></pre>
 
@@ -498,7 +519,7 @@
                                     <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
             
                                 </fieldset>
-                            </form>
+                            </form> 
             
                         </div>
             

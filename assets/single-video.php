@@ -1,12 +1,12 @@
     <meta charset="utf-8">
-    <title>Gallery Post - Typerite</title>
+    <title>Video Post - Typerite</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/vendor.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <script src="./assets/js/modernizr.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/vendor.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/modernizr.js"></script>
     <link rel="manifest" href="site.webmanifest">
 
 <body class="ss-bg-white">
@@ -23,7 +23,7 @@
 
             <div class="header__top">
                 <div class="header__logo">
-                    <a class="site-logo" href="index.html">
+                    <a class="site-logo" href="index.php">
                         <img src="images/logo.svg" alt="Homepage">
                     </a>
                 </div>
@@ -32,30 +32,30 @@
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li class="current"><a href="index.php" title="">Home</a></li>
                     <li class="has-children">
                         <a href="#0" title="">Categories</a>
                         <ul class="sub-menu">
-                        <li><a href="category.html">Lifestyle</a></li>
-                        <li><a href="category.html">Health</a></li>
-                        <li><a href="category.html">Family</a></li>
-                        <li><a href="category.html">Management</a></li>
-                        <li><a href="category.html">Travel</a></li>
-                        <li><a href="category.html">Work</a></li>
+                        <li><a href="category.php">Lifestyle</a></li>
+                        <li><a href="category.php">Health</a></li>
+                        <li><a href="category.php">Family</a></li>
+                        <li><a href="category.php">Management</a></li>
+                        <li><a href="category.php">Travel</a></li>
+                        <li><a href="category.php">Work</a></li>
                         </ul>
                     </li>
                     <li class="has-children current">
                         <a href="#0" title="">Blog Posts</a>
                         <ul class="sub-menu">
-                        <li><a href="single-video.html">Video Post</a></li>
-                        <li><a href="single-audio.html">Audio Post</a></li>
-                        <li><a href="single-gallery.html">Gallery Post</a></li>
-                        <li><a href="single-standard.html">Standard Post</a></li>
+                        <li class="current"><a href="single-video.php">Video Post</a></li>
+                        <li><a href="single-audio.php">Audio Post</a></li>
+                        <li><a href="single-gallery.php">Gallery Post</a></li>
+                        <li><a href="single-standard.php">Standard Post</a></li>
                         </ul>
                     </li>
-                    <li><a href="Post.html" title="">Post</a></li>
-                    <li><a href="about.html" title="">About</a></li>
-                    <li><a href="Account.html" title="">Account</a></li>
+                    <li><a href="Post.php" title="">Post</a></li>
+                    <li><a href="about.php" title="">About</a></li>
+                    <li><a href="Account.php" title="">Account</a></li>
                 </ul> 
 
                 <ul class="header__social">
@@ -81,14 +81,18 @@
                     </li>
                 </ul>
 
-            </nav> 
+            </nav> <!-- end header__nav-wrap -->
 
+            <!-- menu toggle -->
             <a href="#0" class="header__menu-toggle">
                 <span>Menu</span>
             </a>
 
-        </header> 
+        </header> <!-- end s-header -->
 
+
+        <!-- search
+        ================================================== -->
         <div class="s-search">
 
             <div class="search-block">
@@ -103,52 +107,34 @@
     
                 <a href="#0" title="Close Search" class="search-close">Close</a>
     
-            </div> 
+            </div>  <!-- end search-block -->
 
+            <!-- search modal trigger -->
             <a href="#0" class="search-trigger">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter"><path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"></path></svg>
                 <span>Search</span>
             </a>
             <span class="search-line"></span>
 
-        </div> 
+        </div> <!-- end s-search -->
 
+
+        <!-- site content
+        ================================================== -->
         <div class="s-content content">
             <main class="row content__page">
                 
-                <article class="column large-full entry format-gallery">
+                <article class="column large-full entry format-video">
 
                     <div class="media-wrap entry__media">
-                        <div class="entry__slider slider">
-                            <div class="slider__slides">
-                                <div class="slider__slide">
-                                    <img src="images/thumbs/single/gallery/single-gallery-01-1000.jpg" 
-                                            srcset="images/thumbs/single/gallery/single-gallery-01-2000.jpg 2000w, 
-                                                    images/thumbs/single/gallery/single-gallery-01-1000.jpg 1000w, 
-                                                    images/thumbs/single/gallery/single-gallery-01-500.jpg 500w" 
-                                            sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
-                                </div>
-                                <div class="slider__slide">
-                                    <img src="images/thumbs/single/gallery/single-gallery-02-1000.jpg" 
-                                            srcset="images/thumbs/single/gallery/single-gallery-02-2000.jpg 2000w, 
-                                                    images/thumbs/single/gallery/single-gallery-02-1000.jpg 1000w, 
-                                                    images/thumbs/single/gallery/single-gallery-02-500.jpg 500w" 
-                                            sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
-                                </div>
-                                <div class="slider__slide">
-                                    <img src="images/thumbs/single/gallery/single-gallery-03-1000.jpg" 
-                                            srcset="images/thumbs/single/gallery/single-gallery-03-2000.jpg 2000w, 
-                                                images/thumbs/single/gallery/single-gallery-03-1000.jpg 1000w, 
-                                                images/thumbs/single/gallery/single-gallery-03-500.jpg 500w" 
-                                            sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
-                                </div>
-                            </div>
+                        <div class="video-container">
+                            <iframe src="https://player.vimeo.com/video/117310401?color=339989&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
 
                     <div class="content__page-header entry__header">
                         <h1 class="display-1 entry__title">
-                        Hello, This Is A Gallery Post.
+                        Hello, This Is A Video Post.
                         </h1>
                         <ul class="entry__header-meta">
                             <li class="author">By <a href="#0">Jonathan Doe</a></li>
@@ -157,7 +143,7 @@
                                 <a href="#0">Marketing</a><a href="#0">Management</a>
                             </li>
                         </ul>
-                    </div> 
+                    </div> <!-- end entry__header -->
 
                     <div class="entry__content">
 
@@ -283,7 +269,7 @@
                             </span>
             
                         </p>
-                    </div> 
+                    </div> <!-- end entry content -->
 
                     <div class="entry__pagenav">
                         <div class="entry__nav">
@@ -300,7 +286,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div> 
+                    </div> <!-- end entry content -->
 
                     <div class="entry__related">
                         <h3 class="h2">Related Articles</h3>
@@ -325,9 +311,9 @@
                                 <h5 class="related__post-title">The Art Of Visual Storytelling.</h5>
                             </li>
                         </ul>
-                    </div> 
+                    </div> <!-- end entry related -->
 
-                </article> 
+                </article> <!-- end column large-full entry-->
 
 
                 <div class="comments-wrap">
@@ -336,6 +322,7 @@
 
                         <h3 class="h2">5 Comments</h3>
         
+                        <!-- START commentlist -->
                         <ol class="commentlist">
         
                             <li class="depth-1 comment">
@@ -364,7 +351,7 @@
         
                                 </div>
         
-                            </li> 
+                            </li> <!-- end comment level 1 -->
         
                             <li class="thread-alt depth-1 comment">
         
@@ -458,7 +445,7 @@
         
                                 </ul>
         
-                            </li> 
+                            </li> <!-- end comment level 1 -->
         
                             <li class="depth-1 comment">
         
@@ -485,14 +472,16 @@
         
                                 </div>
         
-                            </li>  
+                            </li>  <!-- end comment level 1 -->
         
                         </ol>
+                        <!-- END commentlist -->
 
-                    </div> 
+                    </div> <!-- end comments -->
 
                     <div class="column large-12 comment-respond">
 
+                        <!-- START respond -->
                         <div id="respond">
             
                             <h3 class="h2">Add Comment <span>Your email address will not be published</span></h3>
@@ -519,17 +508,21 @@
                                     <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
             
                                 </fieldset>
-                            </form> 
+                            </form> <!-- end form -->
             
                         </div>
+                        <!-- END respond-->
             
-                    </div> 
+                    </div> <!-- end comment-respond -->
             
-                </div> 
+                </div> <!-- end comments-wrap -->
             </main>
 
-        </div> 
+        </div> <!-- end s-content -->
 
+
+        <!-- footer
+        ================================================== -->
         <footer class="s-footer footer">
             <div class="row">
                 <div class="column large-full footer__content">
@@ -545,8 +538,11 @@
             </div>
         </footer>
 
-    </div> 
+    </div> <!-- end s-wrap -->
 
+
+    <!-- Java Script
+    ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
